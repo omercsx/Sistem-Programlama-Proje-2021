@@ -1,6 +1,7 @@
 app:derle temizle
 
 derle:
+	mkdir -p lib
 	gcc -I ./include/ -o ./lib/string_islem.o -c ./src/string_islem.c -w
 	gcc -I ./libfdr/ -o ./lib/fields.o -c ./libfdr/fields.c -w
 	gcc -I ./libfdr/ -o ./lib/jrb.o -c ./libfdr/jrb.c -w
